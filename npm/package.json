@@ -1,0 +1,17 @@
+{
+  "name": "my_package",
+  "version": "1.0.2",
+  "description": "hello world",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "www.ynet.co.il"
+  }
+}
