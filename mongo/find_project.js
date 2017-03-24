@@ -8,9 +8,15 @@
  const query = {
      age: { $gt: parseInt(AGE) }
  }
+ const return_fields = {
+     name: 1,
+     age: 1,
+     _id: 0
+ }
+
  mongo.connect(DB_URL, function(err, db) {
      var collection = db.collection('parrots')
-     collection.find(query).toArray(function(err, documents) {
+     collection.find(query, return_fields).toArray(function(err, documents) {
          console.log(documents);
      })
 
