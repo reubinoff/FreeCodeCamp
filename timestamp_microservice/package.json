@@ -3,14 +3,14 @@
     "version": "1.0.0",
     "description": "",
     "engines": {
-        "node": "5.9.1"
+        "node": "5.9.0"
     },
     "main": "index.js",
     "scripts": {
         "start": "node index.js"
     },
+
     "author": "Moshe Reubinoff",
-    "license": "ISC",
     "dependencies": {
         "express": "^4.15.2"
     }
